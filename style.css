@@ -8,7 +8,7 @@ body {
   border: 1px solid #333;
   box-shadow: 0 5px 8px #444;
   padding: 8px 12px;
-  background: linear-gradient(to top, lightblue, white);
+  background: linear-gradient(to top, rgb(94, 94, 94), rgb(251, 255, 0));
 }
 
 h1 {
@@ -20,14 +20,19 @@ h1 {
   font-size: 3em;
   padding: 2px;
   margin-right: 3px;
-  color: #e7685d;
+  color: lightgreen;
   float: left;
   line-height: 0.4em;
+  text-shadow: 1px 1px 2px #000, -1px -1px 2px #000;
 }
 p {
   clear: left;
 }
 
-p .linkSM a{
+a {
   text-decoration: none;
+  color:  #4953dd;
+}
+a:hover {
+  color: #8f96fa;
 }
