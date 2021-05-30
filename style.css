@@ -1,0 +1,32 @@
+body {
+  font-family: Roboto, Sans-Serif;
+}
+
+.shadowbox {
+  width: 15em;
+  border: 1px solid #333;
+  box-shadow: 0 5px 8px #444;
+  padding: 8px 12px;
+  background: linear-gradient(to top, lightblue, white);
+}
+
+h1 {
+  color: lightgreen;
+  text-shadow: 1px 1px 5px #000, -1px -1px 5px #000;
+}
+
+.shadowbox p::first-letter {
+  font-size: 3em;
+  padding: 2px;
+  margin-right: 3px;
+  color: #e7685d;
+  float: left;
+  line-height: 0.4em;
+}
+p {
+  clear: left;
+}
+
+p .linkSM a{
+  text-decoration: none;
+}
